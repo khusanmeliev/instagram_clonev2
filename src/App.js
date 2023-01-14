@@ -1,11 +1,14 @@
 import React from "react";
-import Sign from "./pages/signPage/Sign";
+import Home from "./pages/homePage/Home";
+
 const App = () => {
   return (
     <>
-      <Sign />
+      {/* <Sign /> */}
       {/* <Navbar /> */}
       {/* <Profile /> */}
+      {/* <Footer /> */}
+      <Home />
     </>
   );
 };
